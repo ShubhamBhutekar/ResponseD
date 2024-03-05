@@ -1,0 +1,265 @@
+@media only screen and (max-width: 768px){
+
+     
+    .fchild p{
+        font-size: 20px;
+    }
+
+    .dropdown .dropbtn{
+        padding: 19px;
+    }
+
+
+   
+    .btn{
+        width: 18%;
+        margin: 8px 0px;
+        padding: 12px;
+    }
+
+    .chfifth .para{
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width: 474px){
+    .navbar{
+        flex-direction: row;
+        padding: 10px;
+        /* overflow: hidden; */
+    }
+
+     .fchild{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .schild{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn{
+        width: 25%;
+        margin: top 0;
+    } 
+
+    .hsecond{
+        flex-direction: column;
+        
+    }
+
+    .hsecleft{
+        width: 100%;
+        margin: 10px 0px;
+        background-color: burlywood;
+    }
+
+    .hsecright{
+        width: 100%;
+    }
+    .hthird {
+        margin: 0px 11px 11px 11px;
+    }
+    .hthirdchild{
+        width: 89%;
+    }
+
+    .hthirdchild h1{
+        font-size: 28px;
+        font-weight: bold;
+    }
+   .hfourth{
+    margin: 11px;
+    padding: 32px;
+    background-color: burlywood;
+   }
+
+   .hfourth p{
+    font-size: 29px;
+   }
+
+   .hseventh p{
+    font-size: 28px;
+   }
+
+   .headh{
+    background-color: burlywood;
+     
+   }
+   .headh h1{
+    font-size: 28px;
+
+   }
+
+   .htag h1{
+    font-size: 28px;
+   }
+
+
+    .hfifth{
+    flex-direction: column;
+    
+   }
+
+   .chfifth{
+    width: 95%;
+    padding: 0px;
+    background-color: burlywood;
+   }
+
+   .chfifth .para{
+    padding: 0px 30px 20px 30px;
+    
+   }
+
+   .hsixth{
+    margin: 10px;
+   }
+
+   .hseventh{
+    background-color: burlywood;
+   }
+   .sixwrap{
+    flex-direction: column;
+
+   }
+
+   .sixbox{
+    width: 100%;
+    background-color: burlywood;
+
+   }
+
+ /* Extra  css */
+
+ #burger-menu {
+    cursor: pointer;
+    height: 27px;
+    width: 27px;
+    margin: 15px;
+    /* overflow: visible; */
+    position: relative;
+  }
+  #burger-menu span,
+  #burger-menu span:before,
+  #burger-menu span:after {
+    background: #fff;
+    display: block;
+    height: 2px;
+    opacity: 1;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+  }
+  #burger-menu span:before,
+  #burger-menu span:after {
+    content: "";
+  }
+  #burger-menu span:before {
+    left: 0px;
+    top: -10px;
+    width: 27px;
+  }
+  #burger-menu span {
+    right: 0px;
+    top: 13px;
+    width: 27px;
+  }
+  #burger-menu span:after {
+    left: 0px;
+    top: 10px;
+    width: 27px;
+  }
+  #burger-menu.close span:before {
+    top: 0px;
+    transform: rotate(90deg);
+    width: 27px;
+  }
+  #burger-menu.close span {
+    transform: rotate(-45deg);
+    top: 13px;
+    width: 27px;
+  }
+  #burger-menu.close span:after {
+    top: 0px;
+    left: 0;
+    transform: rotate(90deg);
+    opacity: 0;
+    width: 0;
+  }
+  
+  #schild1 {
+    position: fixed;
+    visibility: hidden;
+    padding-top: 50px;
+    text-align: center;
+    transition:  all 0.2s ease-in-out; 
+  }
+  #schild1.overlay {
+    width: 93%;
+    height: 40vh;
+    opacity: 2;
+    visibility: visible;
+    background:burlywood;
+  }
+
+}
+
+
+@media only screen and (max-width: 375px){
+
+    .hfourth p{
+        font-size: 25px;
+       }
+
+       .hseventh p{
+        font-size: 25px;
+       }
+
+       .headh h1{
+        font-size: 25px;
+       }
+
+       .htag h1{
+        font-size: 25px;
+       }
+
+       .btn{
+        width: 30%;
+        margin: top 0;
+    }
+
+    .hthirdchild h1{
+        font-size: 27px;
+       }
+}
+
+@media only screen and (max-width: 340px){
+.btn{
+    width: 35%;
+    margin: top 0;
+}
+
+.hfourth p{
+    font-size: 20px;
+   }
+
+   .hseventh p{
+    font-size: 20px;
+   }
+
+   .headh h1{
+    font-size: 20px;
+   }
+
+   .hthirdchild h1{
+    font-size: 20px;
+   }
+   .htag h1{
+    font-size: 20px;
+   }
+}

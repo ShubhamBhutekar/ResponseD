@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Static Task 1</title>
+  <link rel="stylesheet" href="Static1.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="Rstatic1.css" />
+</head>
+
+<body>
+  <div class="maindiv">
+    <div class="navbar">
+      <div class="fchild">
+        <p>Welcome to HTML template</p>
+      </div>
+      <div class="schild" id="schild1">
+        <div class="dropdown">
+          <div class="dropbtn">
+            HTML template
+            <i class="fa fa-caret-down"></i>
+          </div>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <div class="dropbtn">
+            HTML template 1
+            <i class="fa fa-caret-down"></i>
+          </div>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <div class="btn">Back To Home</div>
+      </div>
+      <div id="burger-menu">
+        <span></span>
+      </div>
+    </div>
+    <div class="hsecond">
+      <div class="hsecleft">
+        <div class="htag">
+          <h1>MARY D.DAVIS</h1>
+          <hr style="
+                width: 5%;
+                height: 4px;
+                color: red;
+                background-color: brown;
+              " />
+          <h3>Welcome to HTML template</h3>
+          <div class="button">
+            <div class="btn1">Download CV</div>
+            <div class="btn1">Contact me</div>
+          </div>
+        </div>
+      </div>
+      <div class="hsecright">
+        <img src="boy.webp" alt="boy" />
+      </div>
+    </div>
+
+    <div class="hthird">
+
+      <div class="hthirdchild">
+        <h1>About Me</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi,
+          iste aliquam! Perferendis mollitia autem libero ipsam! Amet, ut
+          facere? Accusamus enim possimus, culpa voluptate dolor tempore!
+          Mollitia sed est at! Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Veritatis alias repellendus velit, fuga ullam,
+          quis quisquam perferendis est dolorem cupiditate expedita, corporis
+          voluptate!
+        </p>
+        <div>
+          <h5>Age....27</h5>
+          <h5>RESIDENCE....USA</h5>
+          <h5>FREELANCE....Available</h5>
+          <h5>ADDRESS...USA</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="hfourth">
+      <p>Bootstrap HTML template</p>
+    </div>
+
+    <div class="hfifth">
+      <div class="chfifth">
+        <h3>Education</h3>
+        <div class="para">
+          <p class="text-bold">2007-2009 Computer course(LONDON)</p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Perspiciatis officiis odit.
+          <p class="text-bold">2007-2009 Computer course(LONDON)</p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Perspiciatis officiis odit.
+          <p class="text-bold">2007-2009 Computer course(LONDON)</p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Perspiciatis officiis odit.
+        </div>
+      </div>
+      <div class="chfifth">
+        <h3>Experience</h3>
+        <div class="para">
+          <p class="text-bold">2007-2009 Computer course(LONDON)</p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Perspiciatis officiis odit.
+          <p class="text-bold">2007-2009 Computer course(LONDON)</p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Perspiciatis officiis odit.
+          <p class="text-bold">2007-2009 Computer course(LONDON)</p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Perspiciatis officiis odit.
+        </div>
+      </div>
+    </div>
+    <div class="hsixth">
+      <div class="headh">
+        <h1>Pricing</h1>
+      </div>
+      <div class="sixwrap">
+        <div class="sixbox">
+          <b>22$</b>
+          <p>Lorem ipsum dolor sit amet</p>
+          <div class="sbtn">BUY</div>
+        </div>
+        <div class="sixbox">
+          <b>22$</b>
+          <p>Lorem ipsum dolor sit amet</p>
+          <div class="sbtn">BUY</div>
+        </div>
+        <div class="sixbox">
+          <b>22$</b>
+          <p>Lorem ipsum dolor sit amet</p>
+          <div class="sbtn">BUY</div>
+        </div>
+      </div>
+    </div>
+    <div class="hseventh">
+      <p>My Services</p>
+    </div>
+  </div>
+  <script>
+    var burgerMenu = document.getElementById('burger-menu');
+
+    var overlay = document.getElementById('schild1');
+
+    burgerMenu.addEventListener('click', function () {
+      this.classList.toggle("close");
+      overlay.classList.toggle("overlay");
+    });
+  </script>
+</body>
+
+</html>
